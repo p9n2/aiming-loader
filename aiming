@@ -9,11 +9,12 @@ local loader = Instance.new("ScreenGui", core_gui);
 
 local games = {
 	{ name = "Da Hood", link = "https://raw.githubusercontent.com/p9n2/nga-legit-script/refs/heads/main/nga%20legit%20script" },
+	{ name = "ESP", link = "https://raw.githubusercontent.com/p9n2/ESP/refs/heads/main/ESP" },
 
 };
 
 local custom_callbacks = {
-	["Scorched Earth"] = function()
+	["."] = function()
 		local teleport_service = game:GetService("TeleportService");
 
 		if (game.GameId == 4785126950) then
